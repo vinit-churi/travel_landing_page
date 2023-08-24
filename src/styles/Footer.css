@@ -1,0 +1,23 @@
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px
+}
+.image-only{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column: 1/2;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: gainsboro;
+}
+.footer img{
+    height: 90%;
+    width: auto;
+}

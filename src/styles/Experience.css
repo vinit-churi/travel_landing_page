@@ -1,0 +1,46 @@
+.maincontainerexperiences{
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.experienceleftsec{
+    background-color: yellow;
+    flex: 1 1 50%;
+    display: grid;
+}
+.experiencerightsec{
+    flex: 1 1 50%;
+    padding-left: 60px;
+}
+
+.experiencerightsec h1{
+    font-size: 9rem;
+    color: orange;
+    opacity: 0.7;
+    padding-right: 60px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.experiencerightsec h3{
+    display: inline-block;
+    font-size: 3rem;
+    position: relative;
+    /* margin: 0px; */
+    /* top: -3rem; */
+}
+.experiencerightsec p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: 0px;
+}
+.know-more-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: 0px;
+}
+.experiencerightsec .know-more{
+    /* margin-left: auto;
+    display: block;
+    margin-right: auto; */
+}

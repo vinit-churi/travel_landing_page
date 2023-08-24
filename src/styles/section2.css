@@ -1,0 +1,82 @@
+.Section2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    /* padding: 0px 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.FeatureCards{
+    flex: 0 0 300px;
+    height: 450px;
+    /* background-color: yellow; */
+}
+.featureCards-image-container{
+    border-radius: 15px;
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    margin: 0 auto;
+}
+.FeatureCards .title{
+    text-align: center;
+    font-weight: 400px;
+    font-size: 1.5rem;
+}
+.FeatureCards p {
+    text-align: center;
+    font-size: 14px;
+}
+.section2-background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    height: 0px;
+    border-top: 5px solid orange;
+    width: 100%;
+    top: 150px;
+    z-index: 0;
+}
+.section2-background img{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -45px;
+    left: 30%;
+
+}
+.section2-background::before{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: -10px;
+    
+}
+.section2-background::after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: -10px;
+    right: 0px;
+}
+.card-divider{
+    border-top: 3px solid orange;
+    border-radius: 5px;
+    width: 40%;
+    margin: 0 auto;
+}

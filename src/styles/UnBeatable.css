@@ -1,0 +1,16 @@
+.UnBeatable{
+    margin-left: 0px;
+}
+.UnBeatable .left{
+    background-color: orange;
+    padding: 100px 0px;
+
+}
+.UnBeatable .innerSectionNumber{
+    color: rgb(241, 202, 131);
+    padding-left: 30px;
+    
+}
+.UnBeatable .section-title-destination{
+    color: white;
+}

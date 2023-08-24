@@ -1,0 +1,47 @@
+.Section3{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.Section3 .left{
+    flex: 1 1 50%;
+    /* background-color: red; */
+    display: flex;
+}
+.innerSectionNumber{
+    font-size: 9rem;
+    color: orange;
+    opacity: 0.7;
+    padding-right: 60px;
+}
+.section-title-destination{
+    font-size: 3rem;
+    position: relative;
+}
+.shadow-text{
+    position: absolute;
+    color: gray;
+    font-size: 3rem;
+    opacity: .4;
+    /* width: 230px; */
+    text-transform: uppercase;
+    word-wrap: break-word;
+    top: 0px;
+    margin: 30px;
+}
+
+.innerSectionPara{
+    padding-right: 100px;
+}
+
+.Section3 .right{
+    flex: 1 1 50%;
+    background-color: yellow;
+}
+
+.know-more{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
